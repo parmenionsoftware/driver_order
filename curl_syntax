@@ -1,0 +1,2 @@
+curl -X POST -d @orders.json http://localhost:4567/orders --header "Content-Type:application/json"
+curl -X POST -d @drivers.json http://localhost:4567/drivers --header "Content-Type:application/json"
